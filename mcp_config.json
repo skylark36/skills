@@ -1,0 +1,13 @@
+{
+    "mcpServers": { // run 'npm install -g @bytebase/dbhub@latest' first
+        "dbhub": {
+            "command": "dbhub",
+            "args": [
+                "--transport",
+                "stdio",
+                "--dsn",
+                "postgresql://user:pass@ip:port/db"
+            ]
+        }
+    }
+}
